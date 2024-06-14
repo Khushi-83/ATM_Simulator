@@ -1,5 +1,6 @@
-WebATM
-WebATM is a web-based ATM simulator built with C++ and the Crow framework, using SQLite for data storage. It supports basic banking operations such as checking balances, depositing funds, and withdrawing funds.
+**ATM_Simulator**
+
+ATM_Simulator is a web-based ATM simulator built with C++ and the Crow framework, using SQLite for data storage. It supports basic banking operations such as checking balances, depositing funds, and withdrawing funds.
 
 Features
 Check Balance
