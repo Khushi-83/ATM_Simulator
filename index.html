@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="atm-container">
+        <h1>ATM Simulator</h1>
+        <form id="atm-form">
+            <div class="input-group">
+                <label for="account-number">Account Number:</label>
+                <input type="text" id="account-number" required>
+            </div>
+            <div class="input-group">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount">
+            </div>
+            <div class="input-group">
+                <label for="action">Action:</label>
+                <select id="action">
+                    <option value="check">Check Balance</option>
+                    <option value="deposit">Deposit</option>
+                    <option value="withdraw">Withdraw</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
